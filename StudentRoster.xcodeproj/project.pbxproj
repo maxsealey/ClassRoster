@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E370E5EA2880DC5F00F33354 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E370E5E92880DC5F00F33354 /* main.cpp */; };
+		E383BBA628F35DF900A6FC93 /* student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E383BBA428F35DF900A6FC93 /* student.cpp */; };
+		E383BBA928F35E1A00A6FC93 /* roster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E383BBA728F35E1A00A6FC93 /* roster.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		E370E5E62880DC5F00F33354 /* StudentRoster */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudentRoster; sourceTree = BUILT_PRODUCTS_DIR; };
 		E370E5E92880DC5F00F33354 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E383BBA328F35DDA00A6FC93 /* degree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = degree.h; sourceTree = "<group>"; };
+		E383BBA428F35DF900A6FC93 /* student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = student.cpp; sourceTree = "<group>"; };
+		E383BBA728F35E1A00A6FC93 /* roster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = roster.cpp; sourceTree = "<group>"; };
+		E383BBAA28F35EC800A6FC93 /* roster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = roster.h; sourceTree = "<group>"; };
+		E383BBAB28F35ED500A6FC93 /* student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = student.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				E370E5E92880DC5F00F33354 /* main.cpp */,
+				E383BBA328F35DDA00A6FC93 /* degree.h */,
+				E383BBAA28F35EC800A6FC93 /* roster.h */,
+				E383BBAB28F35ED500A6FC93 /* student.h */,
+				E383BBA428F35DF900A6FC93 /* student.cpp */,
+				E383BBA728F35E1A00A6FC93 /* roster.cpp */,
 			);
 			path = StudentRoster;
 			sourceTree = "<group>";
@@ -120,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E370E5EA2880DC5F00F33354 /* main.cpp in Sources */,
+				E383BBA928F35E1A00A6FC93 /* roster.cpp in Sources */,
+				E383BBA628F35DF900A6FC93 /* student.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
