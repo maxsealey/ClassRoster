@@ -1,9 +1,10 @@
-//
-//  student.h
-//  StudentRoster
-//
-//  Created by Max Sealey on 10/9/22.
-//
+/*
+Student Class
+student.h
+ 
+Created by Max Sealey
+*/
+
 
 #ifndef student_h
 #define student_h
@@ -16,6 +17,7 @@ using namespace std;
 class Student
 {
 private:
+    // instance variables
     string student_id;
     string first_name;
     string last_name;
@@ -25,9 +27,9 @@ private:
     DegreeProgram degree;
     
 public:
-    const int MAX_DAYS = 3;
+    const static int MAX_DAYS = 3; //number of elements in days_to_complete array
     
-    // setter declarations
+    // Setter Declarations
     void setStudentID(string);
     void setFirstName(string);
     void setLastName(string);
@@ -36,7 +38,7 @@ public:
     void setDaysToComplete(const int []);
     void setDegreeProgram(DegreeProgram);
     
-    // getter declarations
+    // Getter Declarations
     string getStudentID() const;
     string getFirstName() const;
     string getLastName() const;
@@ -45,10 +47,17 @@ public:
     const int* getDaysToComplete();
     DegreeProgram getDegreeProgram() const;
     
-    void print(); //prints student information
+    // print() function declaration
+    // input: none
+    // returns: none
+    // displays student information
+    void print();
     
     Student(); // default constructor
+    
     Student(string initID, string initFirstName, string initLastName, string initEmail, int initAge, int initDays[], DegreeProgram initDegree); // constructor declaration with parameters
+    
+    ~Student(); // destructor, not needed but figured I'd add it
 };
 
 

@@ -1,9 +1,9 @@
-//
-//  degree.h
-//  StudentRoster
-//
-//  Created by Max Sealey on 10/9/22.
-//
+/*
+Degree Program enumerated type (DegreeProgram)
+degree.h
+ 
+Created by Max Sealey
+*/
 
 #ifndef degree_h
 #define degree_h
