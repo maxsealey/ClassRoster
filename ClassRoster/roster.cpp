@@ -120,11 +120,7 @@ void Roster::remove(string studentID)
                 
                 getClassRosterArray()[NBR_STUDENTS - 1] = temp; // points element to be removed to the end of the array
                 
-//                used to track indices in testing
-//                cout << i << endl;
-//                cout << currentIndex << endl;
-                
-                --currentIndex;
+                currentIndex--;
                 break;
             };
         };
