@@ -1,6 +1,6 @@
 /*
 Project: Class Roster
-Course: WGU C867 Performance Assessment
+Course: WGU C867 (Scripting & Programming - Applications) Performance Assessment
 Name: Max Sealey
 Date Started: October 9th, 2022
 Date Submitted: October 11th, 2022
@@ -79,5 +79,6 @@ int main() {
     
     classRoster.remove("A3");
     classRoster.printAll();
+    
     return 0;
 }
