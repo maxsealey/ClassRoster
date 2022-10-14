@@ -48,7 +48,7 @@
 		E370E5DD2880DC5F00F33354 = {
 			isa = PBXGroup;
 			children = (
-				E370E5E82880DC5F00F33354 /* StudentRoster */,
+				E370E5E82880DC5F00F33354 /* ClassRoster */,
 				E370E5E72880DC5F00F33354 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E370E5E82880DC5F00F33354 /* StudentRoster */ = {
+		E370E5E82880DC5F00F33354 /* ClassRoster */ = {
 			isa = PBXGroup;
 			children = (
 				E370E5E92880DC5F00F33354 /* main.cpp */,
@@ -71,7 +71,7 @@
 				E383BBA428F35DF900A6FC93 /* student.cpp */,
 				E383BBA728F35E1A00A6FC93 /* roster.cpp */,
 			);
-			path = StudentRoster;
+			path = ClassRoster;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E370E5E12880DC5F00F33354 /* Build configuration list for PBXProject "StudentRoster" */;
+			buildConfigurationList = E370E5E12880DC5F00F33354 /* Build configuration list for PBXProject "ClassRoster" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -272,7 +272,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E370E5E12880DC5F00F33354 /* Build configuration list for PBXProject "StudentRoster" */ = {
+		E370E5E12880DC5F00F33354 /* Build configuration list for PBXProject "ClassRoster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E370E5EB2880DC5F00F33354 /* Debug */,

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/maxsealey/dev/wgu/C867/StudentRoster/ClassRoster.xcodeproj">
    </FileRef>
 </Workspace>

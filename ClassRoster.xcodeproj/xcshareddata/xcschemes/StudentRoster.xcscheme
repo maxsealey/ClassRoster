@@ -17,7 +17,7 @@
                BlueprintIdentifier = "E370E5E52880DC5F00F33354"
                BuildableName = "StudentRoster"
                BlueprintName = "StudentRoster"
-               ReferencedContainer = "container:StudentRoster.xcodeproj">
+               ReferencedContainer = "container:ClassRoster.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,7 +47,7 @@
             BlueprintIdentifier = "E370E5E52880DC5F00F33354"
             BuildableName = "StudentRoster"
             BlueprintName = "StudentRoster"
-            ReferencedContainer = "container:StudentRoster.xcodeproj">
+            ReferencedContainer = "container:ClassRoster.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "E370E5E52880DC5F00F33354"
             BuildableName = "StudentRoster"
             BlueprintName = "StudentRoster"
-            ReferencedContainer = "container:StudentRoster.xcodeproj">
+            ReferencedContainer = "container:ClassRoster.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
