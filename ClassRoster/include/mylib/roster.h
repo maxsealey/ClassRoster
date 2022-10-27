@@ -21,7 +21,7 @@ private:
     int currentIndex = 0; // used to dynamically track size of student array
     
     // Array of pointers to hold student data, per requirements
-    // Convert to vectors, more effiecient
+    // Convert to vectors, more efficient
     Student* classRosterArray[NBR_STUDENTS];
     
 public:
