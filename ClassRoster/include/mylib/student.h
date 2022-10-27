@@ -17,7 +17,6 @@ using namespace std;
 class Student
 {
 private:
-    // instance variables
     string student_id;
     string first_name;
     string last_name;
@@ -25,10 +24,9 @@ private:
     int age;
     int days_to_complete[3];
     DegreeProgram degree;
-    // add: course and instructor names, GPA, exact birthdate, course grades
     
 public:
-    const static int MAX_DAYS = 3; //number of elements in days_to_complete array
+    const static int MAX_DAYS = 3;
     
     // Setter Declarations
     void setStudentID(string);

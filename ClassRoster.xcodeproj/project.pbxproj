@@ -45,6 +45,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E35A44E2290A02F8007385C8 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E35A44E3290A0303007385C8 /* mylib */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		E35A44E3290A0303007385C8 /* mylib */ = {
+			isa = PBXGroup;
+			children = (
+				E383BBA328F35DDA00A6FC93 /* degree.h */,
+				E383BBAA28F35EC800A6FC93 /* roster.h */,
+				E383BBAB28F35ED500A6FC93 /* student.h */,
+			);
+			path = mylib;
+			sourceTree = "<group>";
+		};
+		E35A44E4290A0312007385C8 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E35A44E5290A031F007385C8 /* mylib */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		E35A44E5290A031F007385C8 /* mylib */ = {
+			isa = PBXGroup;
+			children = (
+				E383BBA428F35DF900A6FC93 /* student.cpp */,
+				E383BBA728F35E1A00A6FC93 /* roster.cpp */,
+			);
+			path = mylib;
+			sourceTree = "<group>";
+		};
 		E370E5DD2880DC5F00F33354 = {
 			isa = PBXGroup;
 			children = (
@@ -64,12 +99,9 @@
 		E370E5E82880DC5F00F33354 /* ClassRoster */ = {
 			isa = PBXGroup;
 			children = (
+				E35A44E4290A0312007385C8 /* src */,
+				E35A44E2290A02F8007385C8 /* include */,
 				E370E5E92880DC5F00F33354 /* main.cpp */,
-				E383BBA328F35DDA00A6FC93 /* degree.h */,
-				E383BBAA28F35EC800A6FC93 /* roster.h */,
-				E383BBAB28F35ED500A6FC93 /* student.h */,
-				E383BBA428F35DF900A6FC93 /* student.cpp */,
-				E383BBA728F35E1A00A6FC93 /* roster.cpp */,
 			);
 			path = ClassRoster;
 			sourceTree = "<group>";
