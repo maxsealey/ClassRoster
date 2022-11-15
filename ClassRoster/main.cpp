@@ -25,7 +25,6 @@ using namespace std;
 
 int main() {
     
-    // Display Project & Author Information
     cout << "----------------------------------------------------------------" << endl;
     cout << "Course: Scripting & Programming - Applications (WGU C867)" << endl;
     cout << "Programming Language: C++ (compiled in Xcode)" << endl;
@@ -33,7 +32,6 @@ int main() {
     cout << "Student ID: 010332991" << endl;
     cout << "----------------------------------------------------------------\n" << endl;
     
-    // Data
     const string studentData[] =
     {"A1,John,Smith,John1989@gmail.com,20,30,35,40,SECURITY",
         "A2,Suzan,Erickson,Erickson_1990@gmailcom,19,50,30,40,NETWORK",
@@ -41,14 +39,13 @@ int main() {
         "A4,Erin,Black,Erin.black@comcast.net,22,50,58,40,SECURITY",
         "A5,Max,Sealey,gsealey@wgu.edu,25,4,5,55,SOFTWARE"};
     
-    Roster classRoster; // creates new Roster object with default constructor
+    Roster classRoster;
     
     for (int i = 0; i < NBR_STUDENTS; i++) {
         classRoster.parseEachStudent(studentData[i]);
-    }; // parses each element of studentData array
+    };
     cout << "" << endl;
     
-    // self-explanatory
     classRoster.printAll();
     cout << "" << endl;
     
@@ -65,7 +62,6 @@ int main() {
     // cout << "testing getClassRosterArray()" << endl;
     // classRoster.getClassRosterArray()[4]->print();
     
-    // prints list of students in the software program
     classRoster.printByDegreeProgram(SOFTWARE);
     
     classRoster.remove("A3");
