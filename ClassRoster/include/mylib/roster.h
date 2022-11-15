@@ -72,10 +72,8 @@ public:
     // Getter function - returns pointer to element in classRosterArray at index 0
     Student** getClassRosterArray();
     
-    // Default Constructor
     Roster();
     
-    // Destructor
     ~Roster();
 };
 

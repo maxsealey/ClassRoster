@@ -52,11 +52,11 @@ public:
     // displays student information
     void print();
     
-    Student(); // default constructor
+    Student();
     
-    Student(string initID, string initFirstName, string initLastName, string initEmail, int initAge, int initDays[], DegreeProgram initDegree); // constructor declaration with parameters
+    Student(string initID, string initFirstName, string initLastName, string initEmail, int initAge, int initDays[], DegreeProgram initDegree);
     
-    ~Student(); // destructor
+    ~Student();
 };
 
 

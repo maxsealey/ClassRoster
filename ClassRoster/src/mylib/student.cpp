@@ -8,9 +8,7 @@ Created by Max Sealey
 #include <iostream>
 #include "student.h"
 
-//
 // Setter Function Definitions
-//
 
 void Student::setStudentID(string id)
 {
@@ -49,9 +47,7 @@ void Student::setDegreeProgram(DegreeProgram degreeProgram)
     this->degree = degreeProgram;
 };
 
-//
 // Getter Function Definitions
-//
 
 string Student::getStudentID() const
 {
@@ -115,7 +111,7 @@ void Student::print()
     cout << this->getStudentID() << "\tFirst Name: " << getFirstName() << "\tLast Name: " << this->getLastName() << "\tEmail Address: " << getEmail() << "\tAge: " << this->getAge() << "\tDays in courses: {" << getDaysToComplete()[0] << "," << getDaysToComplete()[1] << "," << getDaysToComplete()[2] << "}" << "\tDegree Program: " << tempDegree << endl;
 }
 
-// Default Constructor
+// Constructors
 Student::Student()
 {
     this->student_id = "";
@@ -129,7 +125,6 @@ Student::Student()
     this->degree = DEFAULT;
 };
 
-// Constructor with parameters
 Student::Student(string initID, string initFirstName, string initLastName, string initEmail, int initAge, int initDays[], DegreeProgram initDegree)
 {
     this->student_id = initID;
@@ -143,10 +138,10 @@ Student::Student(string initID, string initFirstName, string initLastName, strin
     this->degree = initDegree;
 };
 
-// Destructor
+// Destructor - not used
 Student::~Student()
 {
-    // Not needed
+    
 };
 
 
